@@ -1,1 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TarefasJa - Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TarefasJa - Login</h1>
+        <form action="login.php" method="post">
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="senha" placeholder="Senha" required>
+            <input type="submit" value="Entrar">
+            <a href="registro.html">Registrar</a>
+            <a href="trocar_senha.html">Mudar Senha</a>
+
+        </form>
+    </div>
+   
+      
+</body>
+</html>
 
